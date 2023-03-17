@@ -11,8 +11,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr = generateRandomArray();
-
         System.out.println("Задача 1");
         int expense = 0;
         int[] arr1 = generateRandomArray();
@@ -23,7 +21,6 @@ public class Main {
 
         // Задача 2
         System.out.println("Задача 2");
-
         int min = arr1 [0];
         int max = arr1 [0];
         for (int element : arr1) {
@@ -46,9 +43,8 @@ public class Main {
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for ( int i = reverseFullName.length - 1; i>=0; i--) {
             System.out.print(reverseFullName[i]);
-
-
         }
+        // конец
 
 
 
